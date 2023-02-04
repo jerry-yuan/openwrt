@@ -5,13 +5,12 @@ include $(TOPDIR)/rules.mk
 ARCH:=arm
 BOARD:=ipq806x
 BOARDNAME:=Qualcomm Atheros IPQ806X
-FEATURES:=squashfs nand fpu ramdisk
+FEATURES:=squashfs fpu ramdisk
 CPU_TYPE:=cortex-a15
 CPU_SUBTYPE:=neon-vfpv4
-SUBTARGETS:=generic
+SUBTARGETS:=generic chromium
 
-KERNEL_PATCHVER:=5.10
-KERNEL_TESTING_PATCHVER:=5.15
+KERNEL_PATCHVER:=5.15
 
 KERNELNAME:=zImage Image dtbs
 
