@@ -16,6 +16,10 @@
 		label-mac-device = &gmac0;
 	};
 
+	chosen {
+		bootargs = "console=ttyS0,115200";
+	};
+
 	leds {
 		compatible = "gpio-leds";
 
